@@ -1,5 +1,6 @@
 package ru.gostev.autotest.appmanager;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -16,6 +17,7 @@ public class WikipediaPage extends HelperBase{
   @FindBy(id = "firstHeading")
   private WebElement titleName;
 
+  @Step
   public void verifyTitle(String expectedTitle){
     switchDriverToSecondTabOfBrowser();
     Assert.assertTrue(titleName.getText().equals(expectedTitle));

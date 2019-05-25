@@ -1,5 +1,6 @@
 package ru.gostev.autotest.appmanager;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -25,14 +26,17 @@ public class GoogleMainPage extends HelperBase{
   private WebElement firstLink;
 
 
+  @Step
   public void search(String text){
     type(searchString,text);
   }
 
+  @Step
   public void openFirstLink(){
     click(firstLink);
   }
 
+  @Step
   public void openSearchPage(){
     wd.get(URL);
   }
