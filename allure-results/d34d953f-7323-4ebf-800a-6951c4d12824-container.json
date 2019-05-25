@@ -1,0 +1,1 @@
+{"uuid":"d34d953f-7323-4ebf-800a-6951c4d12824","name":"ru.gostev.autotest.tests.TestBase.setUp","description":"","start":1537353949130,"stop":1537353957707,"children":["3b12377e-d567-4d2b-899e-b4277324170f"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1537353949131,"stop":1537353957706}]}
