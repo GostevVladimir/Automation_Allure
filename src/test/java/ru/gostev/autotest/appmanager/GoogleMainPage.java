@@ -27,7 +27,6 @@ public class GoogleMainPage extends HelperBase{
 
   public void search(String text){
     type(searchString,text);
-    click(searchButton);
   }
 
   public void openFirstLink(){
