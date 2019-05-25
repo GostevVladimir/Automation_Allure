@@ -26,17 +26,17 @@ public class GoogleMainPage extends HelperBase{
   private WebElement firstLink;
 
 
-  @Step
+  @Step ("Поиск {text}")
   public void search(String text){
     type(searchString,text);
   }
 
-  @Step
+  @Step ("Переход по первой ссылки")
   public void openFirstLink(){
     click(firstLink);
   }
 
-  @Step
+  @Step ("Открыта главная страница поиска Google")
   public void openSearchPage(){
     wd.get(URL);
   }

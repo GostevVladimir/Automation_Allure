@@ -17,7 +17,7 @@ public class WikipediaPage extends HelperBase{
   @FindBy(id = "firstHeading")
   private WebElement titleName;
 
-  @Step
+  @Step ("Проверка тайтла {expectedTitle}")
   public void verifyTitle(String expectedTitle){
     switchDriverToSecondTabOfBrowser();
     Assert.assertTrue(titleName.getText().equals(expectedTitle));
