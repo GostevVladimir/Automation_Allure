@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-public class WikipediaPage extends HelperBase{
+public class WikipediaPage extends BasePage {
 
   public WikipediaPage(WebDriver wd) {
     super(wd);

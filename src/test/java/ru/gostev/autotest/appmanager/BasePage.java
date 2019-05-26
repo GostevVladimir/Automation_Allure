@@ -11,10 +11,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class HelperBase {
+public class BasePage {
   protected WebDriver wd;
 
-  public HelperBase(WebDriver wd) {
+  public BasePage(WebDriver wd) {
     this.wd = wd;
   }
 
