@@ -8,6 +8,6 @@ public class FirstTest extends TestBase{
    public void testFirst(){
      app.getGoogleMainPage().search("Пенза");
      app.getGoogleMainPage().openFirstLink();
-     app.getWikipediaPage().verifyTitle("Пенза111");
+     app.getWikipediaPage().verifyTitle("Пенза");
   }
 }
