@@ -22,10 +22,10 @@ public class CellPhonesAndAccessoriesPage extends BasePage {
   @FindBy(xpath = "//*[@class='b-list__header']")
   private WebElement headerShopByCategory;
 
-  @FindBy(xpath = ".//*[text()='More refinements']/parent::button")
+  @FindBy(xpath = ".//*[text()='Оптимизация поиска']/parent::button")
   private WebElement moreRefinements;
 
-  @FindBy(xpath = ".//*[@data-value='Buy It Now']")
+  @FindBy(xpath = ".//*[@data-value='Купить сейчас']")
   private WebElement buyItNowRadiobutton;
 
   //===================RESUALT=================================
@@ -72,7 +72,7 @@ public class CellPhonesAndAccessoriesPage extends BasePage {
   @FindBy(id = "refineOverlay-subPanel-_x-price-0-1[0]")
   private WebElement priceTo;
 
-  @FindBy(xpath = ".//button[text()='Apply']")
+  @FindBy(xpath = ".//button[text()='Применить']")
   private WebElement applyButton;
 
   //  ============================================================

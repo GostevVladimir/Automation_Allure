@@ -7,8 +7,8 @@ public class EbayTest  extends TestBase{
   @Test
   public void ebayTest(){
     app.getEbayMainPage().clickShopByCategoryDropDown();
-    app.getEbayMainPage().selectOptionFromShopCategoryDropDown("Cell phones & accessories");
-    app.getCellPhonesAndAccessoriesPage().selectOptionFromShopByCategory("Cell Phones & Smartphones");
+    app.getEbayMainPage().selectOptionFromShopCategoryDropDown("Мобильные телефоны и аксессуары");
+    app.getCellPhonesAndAccessoriesPage().selectOptionFromShopByCategory("Сотовые телефоны и смартфоны");
 
     app.getCellPhonesAndAccessoriesPage().clickMoreRefinements();
 
