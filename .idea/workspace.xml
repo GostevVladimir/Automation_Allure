@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b6649d5f-d25d-440b-9d20-0ba71916f304" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firsttest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/firsttest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gostev/autotest/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gostev/autotest/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gostev/autotest/tests/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gostev/autotest/tests/FirstTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,98 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/gostev/autotest/tests/FirstTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/GoogleMainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="24" />
-              <folding>
-                <element signature="e#728#729#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/ApplicationManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="991">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/gostev/autotest/tests/EbayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/LotPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/CellPhonesAndAccessoriesPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="195" column="47" selection-start-line="195" selection-start-column="47" selection-end-line="195" selection-end-column="47" />
-              <folding>
-                <element signature="e#2756#2757#0" expanded="true" />
-                <element signature="e#2816#2817#0" expanded="true" />
-                <element signature="e#2846#2847#0" expanded="true" />
-                <element signature="e#2877#2878#0" expanded="true" />
-                <element signature="e#2907#2908#0" expanded="true" />
-                <element signature="e#2938#2939#0" expanded="true" />
-                <element signature="e#2969#2970#0" expanded="true" />
-                <element signature="e#3001#3002#0" expanded="true" />
-                <element signature="e#3036#3037#0" expanded="true" />
-                <element signature="e#3065#3066#0" expanded="true" />
-                <element signature="e#3097#3098#0" expanded="true" />
-                <element signature="e#3130#3131#0" expanded="true" />
-                <element signature="e#3161#3162#0" expanded="true" />
-                <element signature="e#3193#3194#0" expanded="true" />
-                <element signature="e#3222#3223#0" expanded="true" />
-                <element signature="e#3252#3253#0" expanded="true" />
-                <element signature="e#3287#3288#0" expanded="true" />
-                <element signature="e#3316#3317#0" expanded="true" />
-                <element signature="e#3358#3359#0" expanded="true" />
-                <element signature="e#3388#3389#0" expanded="true" />
-                <element signature="e#3428#3429#0" expanded="true" />
-                <element signature="e#3456#3457#0" expanded="true" />
-                <element signature="e#3491#3492#0" expanded="true" />
-                <element signature="e#3520#3521#0" expanded="true" />
-                <element signature="e#3563#3564#0" expanded="true" />
-                <element signature="e#3613#3614#0" expanded="true" />
-                <element signature="e#3649#3650#0" expanded="true" />
-                <element signature="e#3693#3694#0" expanded="true" />
-                <element signature="e#3730#3731#0" expanded="true" />
-                <element signature="e#3775#3776#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -125,10 +35,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/EbayMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="35" column="26" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="26" />
+            <state relative-caret-position="266">
+              <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,7 +101,6 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/WikipediaPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/MyTestListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/gostev/autotest/Listener/MyTestListener.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/gostev/autotest/tests/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/gostev/autotest/tests/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/resources/local.properties" />
@@ -198,6 +109,7 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/EbayMainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/CellPhonesAndAccessoriesPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/LotPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/gostev/autotest/tests/FirstTest.java" />
       </list>
     </option>
   </component>
@@ -215,10 +127,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="893" />
-    <option name="y" value="49" />
-    <option name="width" value="1024" />
-    <option name="height" value="1036" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -497,9 +409,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest_testFirst - 2019.05.25 at 15h 32m 29s.xml">
-      <configuration name="FirstTest.testFirst" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="FirstTest_testFirst - 2019.05.25 at 15h 32m 49s.xml">
       <configuration name="FirstTest.testFirst" configurationId="TestNG" />
     </history-entry>
@@ -527,12 +436,15 @@
     <history-entry file="EbayTest_test - 2019.06.02 at 12h 42m 54s.xml">
       <configuration name="EbayTest.test" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="EbayTest_test - 2019.06.02 at 13h 02m 40s.xml">
+      <configuration name="EbayTest.test" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19936034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19936034" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -542,7 +454,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32944915" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.32792208" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39935064" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -700,44 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/gostev/autotest/tests/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="991">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/GoogleMainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="24" />
-          <folding>
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/EbayMainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/CellPhonesAndAccessoriesPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -777,13 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/gostev/autotest/tests/EbayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/LotPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -791,6 +658,56 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/GoogleMainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="24" />
+          <folding>
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/gostev/autotest/tests/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="991">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/gostev/autotest/appmanager/EbayMainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/gostev/autotest/tests/EbayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
         </state>
       </provider>
     </entry>

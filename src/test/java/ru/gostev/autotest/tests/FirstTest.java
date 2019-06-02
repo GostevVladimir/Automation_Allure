@@ -1,9 +1,11 @@
 package ru.gostev.autotest.tests;
 
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 public class FirstTest extends TestBase{
 
+  @Ignore
   @Test
    public void testFirst(){
      app.getGoogleMainPage().search("Пенза");
