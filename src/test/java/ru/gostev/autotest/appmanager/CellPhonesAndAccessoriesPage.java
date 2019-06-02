@@ -22,7 +22,7 @@ public class CellPhonesAndAccessoriesPage extends BasePage {
   @FindBy(xpath = "//*[@class='b-list__header']")
   private WebElement headerShopByCategory;
 
-  @FindBy(xpath = ".//*[text()='Оптимизация поиска']/parent::button")
+  @FindBy(xpath = ".//*[text()='More refinements...']/parent::button")
   private WebElement moreRefinements;
 
   @FindBy(xpath = ".//*[@data-value='Купить сейчас']")
@@ -86,7 +86,6 @@ public class CellPhonesAndAccessoriesPage extends BasePage {
 
   @Step ("Кликнуть по Оптимизация поиска...")
   public void clickMoreRefinements(){
-    moveTo(moreRefinements);
     waitForElementPresentAndClick(moreRefinements, wd);
   }
 
