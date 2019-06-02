@@ -25,7 +25,7 @@ public class CellPhonesAndAccessoriesPage extends BasePage {
   @FindBy(xpath = ".//*[text()='More refinements']/parent::button")
   private WebElement moreRefinements;
 
-  @FindBy(xpath = ".//*[@data-value='Купить сейчас']")
+  @FindBy(xpath = ".//*[@data-value='Buy It Now']")
   private WebElement buyItNowRadiobutton;
 
   //===================RESUALT=================================
@@ -72,7 +72,7 @@ public class CellPhonesAndAccessoriesPage extends BasePage {
   @FindBy(id = "refineOverlay-subPanel-_x-price-0-1[0]")
   private WebElement priceTo;
 
-  @FindBy(xpath = ".//button[text()='Применить']")
+  @FindBy(xpath = ".//button[text()='Apply']")
   private WebElement applyButton;
 
   //  ============================================================
