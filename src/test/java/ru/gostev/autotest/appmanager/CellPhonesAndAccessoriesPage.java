@@ -86,6 +86,7 @@ public class CellPhonesAndAccessoriesPage extends BasePage {
 
   @Step ("Кликнуть по Оптимизация поиска...")
   public void clickMoreRefinements(){
+    moveTo(moreRefinements);
     waitForElementPresentAndClick(moreRefinements, wd);
   }
 
