@@ -22,7 +22,7 @@ public class CellPhonesAndAccessoriesPage extends BasePage {
   @FindBy(xpath = "//*[@class='b-list__header']")
   private WebElement headerShopByCategory;
 
-  @FindBy(xpath = ".//*[text()='More refinements...']/parent::button")
+  @FindBy(xpath = ".//*[text()='More refinements']/parent::button")
   private WebElement moreRefinements;
 
   @FindBy(xpath = ".//*[@data-value='Купить сейчас']")
