@@ -12,7 +12,7 @@ import ru.gostev.autotest.appmanager.ApplicationManager;
 public class TestBase {
 
   protected static final ApplicationManager app
-          = new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
+          = new ApplicationManager(System.getProperty("browser", BrowserType.FIREFOX));
 
   @BeforeMethod
   public void setUp(ITestContext context) throws Exception {

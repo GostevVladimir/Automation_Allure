@@ -28,17 +28,17 @@ public class EbayTest  extends TestBase{
 
     app.getCellPhonesAndAccessoriesPage().buyItNowRadiobuttonClick();
 
-    String lotName = app.getCellPhonesAndAccessoriesPage().getNameThirdLot();
-    String lotPrice = app.getCellPhonesAndAccessoriesPage().getPriceThirdLot();
-
-    app.getCellPhonesAndAccessoriesPage().clickMoreRefinements();
-    app.getCellPhonesAndAccessoriesPage().deactivateBrandFilter();
-
-    app.getCellPhonesAndAccessoriesPage().clickMoreRefinements();
-    app.getCellPhonesAndAccessoriesPage().setNewPrice(lotPrice);
-
-    app.getCellPhonesAndAccessoriesPage().findLotByNameAmdPrice(lotName, lotPrice);
-    app.getLotPage().verifyTitle(lotName);
-    app.getLotPage().printCountOfStarsAndReviews();
+//    String lotName = app.getCellPhonesAndAccessoriesPage().getNameThirdLot();
+//    String lotPrice = app.getCellPhonesAndAccessoriesPage().getPriceThirdLot();
+//
+//    app.getCellPhonesAndAccessoriesPage().clickMoreRefinements();
+//    app.getCellPhonesAndAccessoriesPage().deactivateBrandFilter();
+//
+//    app.getCellPhonesAndAccessoriesPage().clickMoreRefinements();
+//    app.getCellPhonesAndAccessoriesPage().setNewPrice(lotPrice);
+//
+//    app.getCellPhonesAndAccessoriesPage().findLotByNameAmdPrice(lotName, lotPrice);
+//    app.getLotPage().verifyTitle(lotName);
+//    app.getLotPage().printCountOfStarsAndReviews();
   }
 }
